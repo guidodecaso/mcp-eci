@@ -1,0 +1,19 @@
+[project]
+name = "herramientas-mcp-eci"
+version = "0.1.0"
+description = "Herramientas MCP para consultar información sobre los cursos de la ECI 2025"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "mcp>=1.0.0",
+    "fastmcp>=0.2.0",
+    "uvicorn>=0.30.0",
+    "pydantic>=2.0.0"
+]
+
+[tool.uv]
+dev-dependencies = [
+    "pytest>=7.0.0",
+    "black>=23.0.0",
+    "ruff>=0.1.0"
+]
