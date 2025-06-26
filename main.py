@@ -143,7 +143,7 @@ async def main():
     print("⏹️  Presiona Ctrl+C para detener el servidor")
     
     # Ejecutar el servidor usando HTTP de streaming
-    await mcp.run_streamable_http_async(
+    await mcp.run_http_async(
         host="localhost",
         port=8080,
         path="/mcp"
