@@ -7,7 +7,7 @@ Este proyecto proporciona herramientas MCP (Protocolo de Contexto de Modelo) par
 - **Herramientas ECI 2025**: Consulta información completa sobre los cursos de la ECI
   - Lista todos los cursos organizados por horario
   - Obtiene detalles específicos de cada curso
-- Streaming HTTP vía FastMCP en `localhost:8080/mcp`
+- Streaming HTTP vía FastMCP en `localhost:8080/mcp/`
 - Gestión de proyecto Python basada en UV
 - Datos de cursos actualizados para la edición 2025
 
@@ -23,11 +23,11 @@ uv sync
 uv run python main.py
 ```
 
-3. Acceder a las herramientas MCP vía HTTP en `http://localhost:8080/mcp`
+3. Acceder a las herramientas MCP vía HTTP en `http://localhost:8080/mcp/`
 
 ## Uso
 
-El servidor expone herramientas MCP que pueden ser accedidas por clientes MCP a través de la interfaz de streaming HTTP. Las herramientas están disponibles en el endpoint `/mcp` en el puerto 8080.
+El servidor expone herramientas MCP que pueden ser accedidas por clientes MCP a través de la interfaz de streaming HTTP. Las herramientas están disponibles en el endpoint `/mcp/` en el puerto 8080.
 
 ## Herramientas Disponibles
 
